@@ -9,7 +9,7 @@ import java.util.Currency;
 /**
  * Created by leon on 1/22/18.
  */
-@Repository
-public interface FooRepository extends CrudRepository<Foo, Long> {
+
+public class FooRepository {
 
 }
