@@ -1,15 +1,13 @@
 package com.zipcoder.cryptonator_api.repositories;
 
-import com.zipcoder.cryptonator_api.domain.Foo;
+import com.zipcoder.cryptonator_api.domain.Crypto;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-
-import java.util.Currency;
 
 /**
  * Created by leon on 1/22/18.
  */
-
-public class FooRepository {
+@Repository
+public interface CryptoRepository extends CrudRepository<Crypto, Long> {
 
 }
