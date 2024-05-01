@@ -10,5 +10,5 @@ import java.util.Currency;
  */
 @Repository
 public interface FooRepository extends CrudRepository<Currency, Long> {
-    
+
 }
