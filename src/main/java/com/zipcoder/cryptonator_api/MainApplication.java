@@ -27,7 +27,7 @@ public class MainApplication {
     }
 
     private void sampleFetch(RestTemplate restTemplate) {
-        String uriString = "https://api.cryptonator.com/api/ticker/btc-usd";
+        String uriString = "https://api.cryptonator.com/api/btc-usd/ticker";
         System.out.println("Fetching object from cryptonator.com");
         System.out.println("Attempting to retrieve object from URI...");
         System.out.println(uriString);
